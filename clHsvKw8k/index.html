@@ -2,23 +2,27 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | JesseHuan</title>
+<title>Docker 阿里云镜像加速度 | JesseHuan</title>
 <link rel="shortcut icon" href="https://lhzlg3368.github.io/favicon.ico?v=1584772155834">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://lhzlg3368.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="关于 | JesseHuan - Atom Feed" href="https://lhzlg3368.github.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="Docker 阿里云镜像加速度 | JesseHuan - Atom Feed" href="https://lhzlg3368.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="
-欢迎来到我的小站呀，很高兴遇见你！🤝
+    <meta name="description" content="在Ubuntu下
 
-🏠 关于本站
-👨‍💻 博主是谁
-⛹ 兴趣爱好
-📬 联系我呀
-..." />
+
+安装／升级Docker客户端
+推荐安装1.10.0以上版本的Docker客户端
+
+
+配置镜像加速器
+针对Docker客户端版本大于 1.10.0 的用户
+
+
+您可以通过修改daemon配置文件/etc/docker/d..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -81,11 +85,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              Docker 阿里云镜像加速度
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2020-03-21
               </span>
               <span>
                 1 min read
@@ -95,27 +99,32 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+                <p>在Ubuntu下</p>
+<ol>
+<li>
+<p>安装／升级Docker客户端<br>
+推荐安装1.10.0以上版本的Docker客户端</p>
+</li>
+<li>
+<p>配置镜像加速器<br>
+针对Docker客户端版本大于 1.10.0 的用户</p>
+</li>
+</ol>
+<p>您可以通过修改daemon配置文件/etc/docker/daemon.json来使用加速器</p>
+<pre><code>sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json &lt;&lt;-'EOF'
+{
+  &quot;registry-mirrors&quot;: [&quot;登录阿里云填写你的地址&quot;]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+</code></pre>
+<p><a href="https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors">链接-阿里云容器镜像服务-my</a></p>
 
               </div>
               <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
-</ul>
-
+                
               </div>
             </div>
           </article>
