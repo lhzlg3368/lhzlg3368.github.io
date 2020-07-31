@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lhzlg3368.github.io</id>
     <title>JesseHuan</title>
-    <updated>2020-03-22T14:43:42.505Z</updated>
+    <updated>2020-07-31T07:22:57.422Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lhzlg3368.github.io"/>
     <link rel="self" href="https://lhzlg3368.github.io/atom.xml"/>
@@ -10,36 +10,6 @@
     <logo>https://lhzlg3368.github.io/images/avatar.png</logo>
     <icon>https://lhzlg3368.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, JesseHuan</rights>
-    <entry>
-        <title type="html"><![CDATA[健身计划（2020年3月22-3月28日）]]></title>
-        <id>https://lhzlg3368.github.io/CgYbAGm5f/</id>
-        <link href="https://lhzlg3368.github.io/CgYbAGm5f/">
-        </link>
-        <updated>2020-03-22T09:33:27.000Z</updated>
-        <summary type="html"><![CDATA[<ol>
-<li>今天晚上吃一半鸡胸肉加西兰花，做20个俯卧撑2组,10个俯卧撑2组</li>
-<li>23日早上吃两个煮鸡蛋和鸡胸肉，做20个俯卧撑2组,10个俯卧撑2组，加坚果酸奶一杯</li>
-<li>24日早上吃两个煮鸡蛋加坚果酸奶一杯，做20个俯卧撑2组,10个俯卧撑2组，加坚果酸奶一杯<br>
-连续训练两天奖励晚上买鸡胸肉</li>
-</ol>
-]]></summary>
-        <content type="html"><![CDATA[<ol>
-<li>今天晚上吃一半鸡胸肉加西兰花，做20个俯卧撑2组,10个俯卧撑2组</li>
-<li>23日早上吃两个煮鸡蛋和鸡胸肉，做20个俯卧撑2组,10个俯卧撑2组，加坚果酸奶一杯</li>
-<li>24日早上吃两个煮鸡蛋加坚果酸奶一杯，做20个俯卧撑2组,10个俯卧撑2组，加坚果酸奶一杯<br>
-连续训练两天奖励晚上买鸡胸肉</li>
-</ol>
-<!-- more -->
-<ol start="4">
-<li>25日早上吃两个煮鸡和鸡胸肉，做20个俯卧撑2组,10个俯卧撑2组，加鸡胸肉一杯</li>
-<li>26日早上吃两个煮鸡和鸡胸肉，做20个俯卧撑2组,10个俯卧撑2组，加鸡胸肉一杯</li>
-<li>27日早上吃两个煮鸡和酸奶坚果，做20个俯卧撑2组,10个俯卧撑2组，加鸡胸肉一杯<br>
-连续训练训练五天晚上奖励买一块牛排煎来吃</li>
-<li>28日清帐总结</li>
-</ol>
-<p>每次完成计划点则更新并记录</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[笔记-CyclieBarrier循环栅栏，闭锁CountDownLatch]]></title>
         <id>https://lhzlg3368.github.io/YUKvS__4A/</id>
